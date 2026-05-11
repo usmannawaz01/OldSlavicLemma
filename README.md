@@ -2,7 +2,7 @@
 
 **OldSlavicLemma** is a neural sequence-to-sequence lemmatizer for Early Slavic languages, with a focus on **Old Church Slavonic (OCS)** and **Old East Slavic (OES)**. The model is designed for historical and medieval Slavic texts with rich morphology, orthographic variation, and limited annotated resources.
 
-The system uses a character-level encoder-decoder architecture with stacked BiLSTMs, cross-layer multi-head attention, and encoder-decoder cross-attention. It predicts lemmas directly from token context and does not require external dictionaries, POS tags, or morphological features as input.
+
 
 ## Online demos
 
@@ -10,7 +10,7 @@ Two Hugging Face Spaces are available.
 
 ### 1. OldSlavicLemma interactive interface
 
-Use this demo to lemmatize individual words or text interactively:
+Use this demo to lemmatize individual words/ Tokens or text interactively:
 
 https://huggingface.co/spaces/usmannawaz/oldslaviclemma
 
@@ -28,19 +28,10 @@ The main experiments focus on Early Slavic Universal Dependencies treebanks:
 - Old East Slavic — Birchbark
 - Old East Slavic — RNC
 - Old East Slavic — TOROT
-- Old East Slavic — Ruthenian, where available in later UD releases
+
 
 The model is also evaluated on additional historical and modern Universal Dependencies treebanks.
 
-## Main features
-
-- Character-level neural lemmatization
-- Context-aware prediction using left and right token context
-- Dictionary-free architecture
-- Designed for historical and medieval Slavic languages
-- Supports evaluation under gold-tokenization and raw-text settings
-- Compatible with CoNLL-U based evaluation workflows
-- Includes comparison against Stanza and UDPipe 2 in the paper
 
 ## Evaluation settings
 
@@ -62,11 +53,6 @@ Metric:
 
 - Lemmas F1 score from the CoNLL-2018 evaluation script
 
-Additional analyses include:
-
-- McNemar significance testing
-- Character-level edit-distance evaluation
-- OOV, ambiguous, and unambiguous token analysis
 
 ## Repository status
 
