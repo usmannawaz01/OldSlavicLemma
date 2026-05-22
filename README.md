@@ -18,7 +18,6 @@ https://usmannawaz01.github.io/OldSlavicLemma/
 
 Use this demo for CoNLL-U based comparison and reproducibility without retraining:
 
-https://huggingface.co/spaces/usmannawaz/oldslaviclemma-conllu
 
 ## Supported languages and treebanks
 
