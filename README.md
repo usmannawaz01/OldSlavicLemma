@@ -4,9 +4,9 @@
 
 
 
-## Online demos
+## Online demo
 
-Two Hugging Face Spaces are available.
+Hugging Face Space
 
 ### 1. OldSlavicLemma interactive interface
 
