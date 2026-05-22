@@ -12,7 +12,7 @@ Two Hugging Face Spaces are available.
 
 Use this demo to lemmatize individual words/ Tokens or text interactively:
 
-https://huggingface.co/spaces/usmannawaz/oldslaviclemma
+https://usmannawaz01.github.io/OldSlavicLemma/
 
 ### 2. CoNLL-U comparison and reproducibility interface
 
