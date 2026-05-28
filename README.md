@@ -1,27 +1,46 @@
 # OldSlavicLemma
 
-**OldSlavicLemma** is a neural sequence-to-sequence lemmatizer for Early Slavic languages, with a focus on **Old Church Slavonic (OCS)** and **Old East Slavic (OES)**. The model is designed for historical and medieval Slavic texts with rich morphology, orthographic variation, and limited annotated resources.
+**OldSlavicLemma** is a neural sequence-to-sequence lemmatizer for historical and low-resource languages, with a primary focus on **Old Church Slavonic (OCS)** and **Old East Slavic (OES)**.
 
+The model is designed for texts with rich inflectional morphology, orthographic variation, and limited annotated resources. It uses a dictionary-free character-level encoder-decoder architecture with recurrent layers and attention mechanisms.
 
+## Tags
+
+`lemmatization` · `historical-nlp` · `old-church-slavonic` · `old-east-slavic` · `early-slavic` · `universal-dependencies` · `sequence-to-sequence` · `character-level-modeling` · `low-resource-nlp` · `morphology` · `pytorch`
+
+## Project properties
+
+- **Task:** Lemmatization
+- **Model type:** Neural sequence-to-sequence lemmatizer
+- **Input:** Token, word, or short text
+- **Output:** Predicted lemma
+- **Primary languages:** Old Church Slavonic and Old East Slavic
+- **Primary treebanks:** PROIEL, Birchbark, RNC, TOROT
+- **Additional evaluation:** 64 languages and 115 Universal Dependencies treebanks
+- **Framework:** PyTorch
+- **License:** CC BY-NC 4.0
 
 ## Online demo
 
-Hugging Face Space
+Two online interfaces are available.
 
-### 1. OldSlavicLemma interactive interface
+### 1. Interactive lemmatization demo
 
-Use this demo to lemmatize individual words/ Tokens or text interactively:
+Use this demo to lemmatize individual words, tokens, or short text interactively:
 
 https://usmannawaz01.github.io/OldSlavicLemma/
 
-### 2. CoNLL-U comparison and reproducibility interface
+### 2. Hugging Face Space
 
-Use this demo for CoNLL-U based comparison and reproducibility without retraining:
+A Hugging Face Space is also available for testing the deployed model:
 
+https://huggingface.co/spaces/usmannawaz/oldslaviclemma
+
+These interfaces are intended for quick testing, qualitative inspection, and demonstration of the model without local installation.
 
 ## Supported languages and treebanks
 
-The main experiments focus on Early Slavic Universal Dependencies treebanks:
+OldSlavicLemma is specialized for Early Slavic lemmatization, especially:
 
 - Old Church Slavonic — PROIEL
 - Old East Slavic — Birchbark
@@ -29,30 +48,47 @@ The main experiments focus on Early Slavic Universal Dependencies treebanks:
 - Old East Slavic — TOROT
 
 
-The model is also evaluated on additional historical and modern Universal Dependencies treebanks.
-
+In addition to Early Slavic, the model was evaluated on **64 languages** and **115 Universal Dependencies treebanks**. These experiments include both historical and contemporary languages and are intended to assess portability beyond the main Early Slavic setting.
 
 ## Evaluation settings
 
-The paper reports two main evaluation settings.
+We reports two main evaluation settings.
 
 ### Gold-tokenization setting
 
-In this setting, the official UD tokenization and sentence boundaries are preserved. The model predicts lemmas for already tokenized input.
+Official UD tokenization and sentence boundaries are preserved. The model predicts lemmas for already-tokenized input.
 
-Metric:
+**Metric**
 
-- Token-level lemma exact-match accuracy
+- Accuracy
 
-### Raw-text setting
+### Raw-tokenization setting
 
-In this setting, systems are evaluated from raw input text to CoNLL-U output using the official CoNLL-2018 evaluation script.
+Raw input is first tokenized using an external tokenizer, and OldSlavicLemma is then used for lemma prediction.
 
-Metric:
+**Metric**
 
-- Lemmas F1 score from the CoNLL-2018 evaluation script
-
+- Lemmas F1 score from the official CoNLL-2018 evaluation script
 
 ## Repository status
 
-This repository will contain the source code, evaluation scripts, model configuration files, and instructions for reproducing the experiments reported in the paper.
+This repository contains, or will contain, the resources required to reproduce the experiments:
+
+- Source code for OldSlavicLemma
+- Training and evaluation scripts
+- Model configuration files
+- CoNLL-U evaluation pipeline
+- Instructions for reproducing UD v2.12 and UD v2.15 experiments
+- Links to released pretrained models
+
+## Citation
+
+If you use OldSlavicLemma in your research, please cite:
+
+```bibtex
+@article{nawaz2025oldslaviclemma,
+  title   = {OldSlavicLemma: A Neural Sequence-to-Sequence Model for Lemmatization of Early Slavic Languages},
+  author  = {Nawaz, Usman and Lo Presti, Liliana and La Cascia, Marco},
+  journal = {Natural Language Processing},
+  year    = {2025}
+}
