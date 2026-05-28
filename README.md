@@ -30,13 +30,13 @@ Use this demo to lemmatize individual words, tokens, or short text interactively
 
 https://usmannawaz01.github.io/OldSlavicLemma/
 
-### 2. Hugging Face Space
+### 2. Pretrained models
 
-A Hugging Face Space is also available for testing the deployed model:
+Pretrained OldSlavicLemma models are available on Hugging Face:
 
-https://huggingface.co/spaces/usmannawaz/oldslaviclemma
+https://huggingface.co/usmannawaz/oldslaviclemma
 
-These interfaces are intended for quick testing, qualitative inspection, and demonstration of the model without local installation.
+These resources are intended for reuse of the released models without retraining.
 
 ## Supported languages and treebanks
 
