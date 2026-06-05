@@ -242,6 +242,36 @@ OldSlavicLemma/
     └── cu_proiel-ud-test.conllu
 ```
 
+
+## Data
+
+This repository does not include Universal Dependencies treebanks directly.
+
+The experiments were run using **Universal Dependencies v2.12**. Users can download the required `.conllu` files from the official UD v2.12 release:
+
+https://lindat.mff.cuni.cz/repository/items/9142eb95-44f7-442a-923f-0b39da4264fc
+
+After downloading the treebanks, provide the paths to the train, dev, and test files using the `--train`, `--dev`, and `--test` arguments.
+
+A typical project layout is:
+
+```text
+OldSlavicLemma/
+├── oldslaviclemmatrain/
+├── pyproject.toml
+├── README.md
+├── requirements.txt
+└── UD_Old_Church_Slavonic-PROIEL/
+    ├── cu_proiel-ud-train.conllu
+    ├── cu_proiel-ud-dev.conllu
+    └── cu_proiel-ud-test.conllu
+
+
+
+
+
+
+
 ## Evaluation settings
 
 OldSlavicLemma can be evaluated in two settings.
