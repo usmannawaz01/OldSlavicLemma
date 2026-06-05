@@ -28,7 +28,7 @@ Use the Hugging Face repository if you want to download and reuse pretrained mod
 
 - **Task:** Lemmatization
 - **Model type:** Neural sequence-to-sequence lemmatizer
-- **Input:** Token, word, or short text
+- **Input:** Text
 - **Output:** Predicted lemma
 - **Primary languages:** Old Church Slavonic and Old East Slavic
 - **Primary treebanks:** PROIEL, Birchbark, RNC, TOROT
