@@ -55,6 +55,15 @@ git clone https://github.com/YOUR_USERNAME/OldSlavicLemma.git
 cd OldSlavicLemma
 ```
 
+Create a new Python environment, or activate an existing environment where you want to install OldSlavicLemma.
+
+You can create a new environment
+
+```bash
+conda create -n oldslaviclemma python=3.10
+conda activate oldslaviclemma
+
+
 Create or activate a Python environment, then install the requirements:
 
 ```bash
