@@ -33,7 +33,10 @@ Use the Hugging Face repository if you want to download and reuse pretrained mod
 - **Primary languages:** Old Church Slavonic and Old East Slavic
 - **Primary treebanks:** PROIEL, Birchbark, RNC, TOROT
 - **Framework:** PyTorch
-- **License:** CC BY-NC 4.0
+- **Code license:** MIT License
+- **Model weights license:** CC BY-NC 4.0
+
+
 
 ## Supported languages and treebanks
 
