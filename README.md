@@ -214,13 +214,4 @@ Main files:
 
 ## Citation
 
-If you use OldSlavicLemma in your research, please cite:
-
-```bibtex
-@article{nawaz2025oldslaviclemma,
-  title   = {OldSlavicLemma: A Neural Sequence-to-Sequence Model for Lemmatization of Early Slavic Languages},
-  author  = {Nawaz, Usman and Lo Presti, Liliana and La Cascia, Marco},
-  journal = {Natural Language Processing},
-  year    = {2025}
-}
-```
+A formal citation for `OldSlavicLemma` will be added soon.
