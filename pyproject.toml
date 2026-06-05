@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oldslaviclemma-train"
+version = "0.1.0"
+description = "Command line retraining package for OldSlavicLemma style lemmatization models"
+requires-python = ">=3.9"
+dependencies = [
+    "torch",
+    "tqdm",
+    "lion-pytorch"
+]
+
+[project.scripts]
+oldslaviclemma-train = "oldslaviclemmatrain.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["oldslaviclemmatrain*"]
