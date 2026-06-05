@@ -224,23 +224,7 @@ Using device: cuda
 
 Otherwise, it will run on CPU.
 
-## Data
 
-This repository does not need to include Universal Dependencies treebanks directly. Users can download the required `.conllu` files from the Universal Dependencies repositories and provide their paths using the `--train`, `--dev`, and `--test` arguments.
-
-A typical project layout is:
-
-```text
-OldSlavicLemma/
-├── oldslaviclemmatrain/
-├── pyproject.toml
-├── README.md
-├── requirements.txt
-└── UD_Old_Church_Slavonic-PROIEL/
-    ├── cu_proiel-ud-train.conllu
-    ├── cu_proiel-ud-dev.conllu
-    └── cu_proiel-ud-test.conllu
-```
 
 
 ## Data
