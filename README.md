@@ -51,7 +51,7 @@ The model was also evaluated on additional Universal Dependencies treebanks to t
 
 ## Evaluated languages
 
-In addition to the main Early Slavic treebanks, OldSlavicLemma was evaluated on the following **64 languages** from Universal Dependencies:
+In addition to the main Early Slavic treebanks, OldSlavicLemma was evaluated on the following **64 languages** and **115 treebanks** from Universal Dependencies:
 
 - Afrikaans
 - Ancient Greek
