@@ -107,21 +107,21 @@ registryentry.json
 
 To train on another treebank, replace the `--train`, `--dev`, and `--test` paths with the correct `.conllu` files.
 
-Example for **Old East Slavic — Birchbark**:
+Example for **Old East Slavic — TOROT**:
 
 ```bash
 oldslaviclemma-train fit \
-  --train UD_Old_East_Slavic-Birchbark/orv_birchbark-ud-train.conllu \
-  --dev UD_Old_East_Slavic-Birchbark/orv_birchbark-ud-dev.conllu \
-  --test UD_Old_East_Slavic-Birchbark/orv_birchbark-ud-test.conllu \
-  --output modelstore/orv_birchbark \
-  --model-id orv_birchbark
+  --train UD_Old_East_Slavic-TOROT/orv_torot-ud-train.conllu \
+  --dev UD_Old_East_Slavic-TOROT/orv_torot-ud-dev.conllu \
+  --test UD_Old_East_Slavic-TOROT/orv_torot-ud-test.conllu \
+  --output modelstore/orv_torot \
+  --model-id orv_torot
 ```
 
 On Windows CMD:
 
 ```cmd
-oldslaviclemma-train fit --train UD_Old_East_Slavic-Birchbark/orv_birchbark-ud-train.conllu --dev UD_Old_East_Slavic-Birchbark/orv_birchbark-ud-dev.conllu --test UD_Old_East_Slavic-Birchbark/orv_birchbark-ud-test.conllu --output modelstore/orv_birchbark --model-id orv_birchbark
+oldslaviclemma-train fit --train UD_Old_East_Slavic-TOROT/orv_torot-ud-train.conllu --dev UD_Old_East_Slavic-TOROT/orv_torot-ud-dev.conllu --test UD_Old_East_Slavic-TOROT/orv_torot-ud-test.conllu --output modelstore/orv_torot --model-id orv_torot
 ```
 
 ## GPU training
