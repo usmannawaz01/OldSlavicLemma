@@ -51,7 +51,7 @@ The model was also evaluated on additional Universal Dependencies treebanks to t
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/OldSlavicLemma.git
+git clone https://github.com/usmannawaz01/OldSlavicLemma.git
 cd OldSlavicLemma
 ```
 
