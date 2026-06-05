@@ -212,6 +212,17 @@ Main files:
 - `vocab.py` — character vocabulary
 - `exporter.py` — model export utilities
 
+
+
+## License
+
+The source code in this repository is released under the MIT License.
+
+The pretrained model weights are released separately under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
+
+Commercial use of the pretrained model weights is not permitted without prior permission.
+
+
 ## Citation
 
 A formal citation for `OldSlavicLemma` will be added soon.
