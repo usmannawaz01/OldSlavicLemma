@@ -62,7 +62,7 @@ You can create a new environment
 ```bash
 conda create -n oldslaviclemma python=3.10
 conda activate oldslaviclemma
-
+```
 
 Create or activate a Python environment, then install the requirements:
 
