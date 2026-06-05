@@ -46,6 +46,8 @@ OldSlavicLemma is specialized for Early Slavic lemmatization, especially:
 
 The model was also evaluated on additional Universal Dependencies treebanks to test portability beyond the main Early Slavic setting.
 
+## Evaluated languages
+
 In addition to the main Early Slavic treebanks, OldSlavicLemma was evaluated on the following 64 languages from Universal Dependencies:
 
 - Afrikaans
