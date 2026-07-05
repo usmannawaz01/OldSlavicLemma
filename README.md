@@ -8,6 +8,9 @@ The model is designed for texts with rich inflectional morphology, orthographic 
 
 `lemmatization` · `historical-nlp` · `old-church-slavonic` · `old-east-slavic` · `early-slavic` · `universal-dependencies` · `sequence-to-sequence` · `character-level-modeling` · `low-resource-nlp` · `morphology` · `pytorch`
 
+
+**Current status:** Pretrained models are available on Hugging Face, while the online demo, inference code, retraining code, and have not been released yet and are planned for September.
+
 ## Online demo
 
 An interactive demo is available here:
