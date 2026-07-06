@@ -11,13 +11,7 @@ The model is designed for texts with rich inflectional morphology, orthographic 
 
 **Current status:** Pretrained models are available on Hugging Face, while the online demo, inference code, retraining code have not been released yet and planned for September.
 
-## Online demo
 
-An interactive demo is available here:
-
-https://usmannawaz01.github.io/OldSlavicLemma/
-
-The demo can be used to lemmatize individual words, tokens, or short text.
 
 ## Pretrained models
 
