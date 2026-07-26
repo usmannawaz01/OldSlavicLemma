@@ -14,6 +14,7 @@ The model is designed for texts with rich inflectional morphology, orthographic 
 ## Online demo
 An interactive demo is available here:
 https://usmannawaz01.github.io/OldSlavicLemma/
+
 The demo can be used to lemmatize individual words/tokens, or text.
 
 
