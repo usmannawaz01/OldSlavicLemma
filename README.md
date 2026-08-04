@@ -52,122 +52,123 @@ OldSlavicLemma is specialized for Early Slavic lemmatization, especially:
 The model was also evaluated on additional Universal Dependencies treebanks to test portability beyond the main Early Slavic setting.
 
 
-Language,Treebank,Oldslaviclemma
-"Afrikaans","AfriBooms",97.96
-"Ancient Greek","PROIEL",98.17
-"Ancient Greek","Perseus",90.04
-"Ancient Hebrew","PTNK",91.63
-"Arabic","PADT",93.64
-"Armenian","BSUT",94.09
-"Armenian","ArmTDP",94.90
-"Basque","bdt",96.61
-"Belarusian","HSE",94.61
-"Bulgarian","BTB",97.54
-"Catalan","AnCora",99.19
-"Chinese (Simplified)","GSDSimp",92.49
-"Chinese (Traditional)","gsd",92.28
-"Classical Chinese","Kyoto",95.06
-"Coptic","Scriptorium",86.14
-"Croatian","SET",96.82
-"Czech","FicTree",98.37
-"Czech","CAC",97.59
-"Czech","CLTT",95.62
-"Czech","PDT",98.71
-"Danish","DDT",96.09
-"Dutch","Alpino",94.70
-"Dutch","Lassysmall",94.96
-"English","Atis",99.57
-"English","EWT",95.69
-"English","GUM",97.56
-"English","LinES",97.80
-"English","ParTUT",97.08
-"French","GSD",97.90
-"French","ParTUT",96.58
-"French","Rhapsodie",96.37
-"French","Sequoia",97.97
-"French","ParisStories",95.94
-"Estonian","EDT",96.17
-"Estonian","EWT",91.64
-"Finnish","FTB",96.39
-"Finnish","TDT",94.98
-"Gothic","PROIEL",96.88
-"Greek","GDT",96.51
-"Galician","CTG",97.78
-"German","GSD",96.56
-"German","HDT",95.86
-"Hindi","HDTB",98.70
-"Hebrew","IAHLTwiki",91.49
-"Hebrew","HTB",89.14
-"Hungarian","Szeged",93.90
-"Irish","twittirish",87.35
-"Irish","IDT",95.55
-"Icelandic","GC",89.17
-"Icelandic","IcePaHC",95.39
-"Icelandic","Modern",94.95
-"Indonesian","GSD",97.96
-"Italian","postwita",95.96
-"Italian","ParTUT",97.29
-"Italian","MarkIT",86.01
-"Italian","ISDT",97.99
-"Italian","VIT",97.76
-"Italian","twittiro",91.50
-"Japanese","GSD",95.03
-"Japanese","GSDLUW",91.96
-"Korean","Kaist",93.45
-"Korean","GSD",93.43
-"Latin","PROIEL",96.82
-"Latin","LLCT",98.52
-"Latin","UDante",86.83
-"Latin","ITTB",98.54
-"Latvian","LVTB",96.26
-"Lithuanian","ALKSNIS",92.71
-"Maghrebi Arabic","Arabizi",52.05
-"Marathi","UFAL",76.72
-"Naija","NSC",99.26
-"Norwegian","Bokmaal",97.91
-"Norwegian","Nynorsk",97.50
-"Old Church Slavonic","PROIEL",96.30
-"Old East Slavic","Birchbark",76.47
-"Old East Slavic","RNC",82.58
-"Old East Slavic","TOROT",94.47
-"Persian","PerDT",98.46
-"Persian","Seraji",98.00
-"Portuguese","Bosque",97.81
-"Portuguese","CINTIL",97.96
-"Portuguese","PetroGold",98.81
-"Pomak","Philotis",98.28
-"Polish","LFG",96.76
-"Polish","PDB",97.25
-"Romanian","Nonstandard",94.93
-"Romanian","RRT",97.38
-"Romanian","simonero",98.68
-"Russian","GSD",94.46
-"Russian","Taiga",93.99
-"Russian","SynTagRus",97.46
-"Serbian","SET",96.79
-"Scottish Gaelic","ARCOSG",96.19
-"Spanish","AnCora",99.20
-"Spanish","GSD",98.20
-"Swedish","LinES",96.23
-"Swedish","Talbanken",97.20
-"Slovenian","SSJ",97.48
-"Slovak","SNK",93.97
-"Tamil","TTB",81.47
-"Turkish German","SAGT",90.42
-"Turkish","Atis",98.52
-"Turkish","BOUN",91.02
-"Turkish","FrameNet",93.39
-"Turkish","IMST",94.96
-"Turkish","Penn",94.21
-"Turkish","kenet",93.31
-"Turkish","Tourism",99.02
-"Urdu","UDTB",97.16
-"Ukrainian","IU",96.18
-"Uyghur","UDT",95.31
-"Vietnamese","VTB",87.55
-"Western Armenian","ArmTDP",96.61
-"Welsh","CCG",95.01
-"Wolof","wtb",94.85
+Multilingual evaluation results
+Language	Treebank	OldSlavicLemma RAW F1
+Afrikaans	AfriBooms	97.96
+Ancient Greek	PROIEL	98.17
+Ancient Greek	Perseus	90.04
+Ancient Hebrew	PTNK	91.63
+Arabic	PADT	93.64
+Armenian	BSUT	94.09
+Armenian	ArmTDP	94.90
+Basque	bdt	96.61
+Belarusian	HSE	94.61
+Bulgarian	BTB	97.54
+Catalan	AnCora	99.19
+Chinese (Simplified)	GSDSimp	92.49
+Chinese (Traditional)	gsd	92.28
+Classical Chinese	Kyoto	95.06
+Coptic	Scriptorium	86.14
+Croatian	SET	96.82
+Czech	FicTree	98.37
+Czech	CAC	97.59
+Czech	CLTT	95.62
+Czech	PDT	98.71
+Danish	DDT	96.09
+Dutch	Alpino	94.70
+Dutch	Lassysmall	94.96
+English	Atis	99.57
+English	EWT	95.69
+English	GUM	97.56
+English	LinES	97.80
+English	ParTUT	97.08
+French	GSD	97.90
+French	ParTUT	96.58
+French	Rhapsodie	96.37
+French	Sequoia	97.97
+French	ParisStories	95.94
+Estonian	EDT	96.17
+Estonian	EWT	91.64
+Finnish	FTB	96.39
+Finnish	TDT	94.98
+Gothic	PROIEL	96.88
+Greek	GDT	96.51
+Galician	CTG	97.78
+German	GSD	96.56
+German	HDT	95.86
+Hindi	HDTB	98.70
+Hebrew	IAHLTwiki	91.49
+Hebrew	HTB	89.14
+Hungarian	Szeged	93.90
+Irish	twittirish	87.35
+Irish	IDT	95.55
+Icelandic	GC	89.17
+Icelandic	IcePaHC	95.39
+Icelandic	Modern	94.95
+Indonesian	GSD	97.96
+Italian	postwita	95.96
+Italian	ParTUT	97.29
+Italian	MarkIT	86.01
+Italian	ISDT	97.99
+Italian	VIT	97.76
+Italian	twittiro	91.50
+Japanese	GSD	95.03
+Japanese	GSDLUW	91.96
+Korean	Kaist	93.45
+Korean	GSD	93.43
+Latin	PROIEL	96.82
+Latin	LLCT	98.52
+Latin	UDante	86.83
+Latin	ITTB	98.54
+Latvian	LVTB	96.26
+Lithuanian	ALKSNIS	92.71
+Maghrebi Arabic	Arabizi	52.05
+Marathi	UFAL	76.72
+Naija	NSC	99.26
+Norwegian	Bokmaal	97.91
+Norwegian	Nynorsk	97.50
+Old Church Slavonic	PROIEL	96.30
+Old East Slavic	Birchbark	76.47
+Old East Slavic	RNC	82.58
+Old East Slavic	TOROT	94.47
+Persian	PerDT	98.46
+Persian	Seraji	98.00
+Portuguese	Bosque	97.81
+Portuguese	CINTIL	97.96
+Portuguese	PetroGold	98.81
+Pomak	Philotis	98.28
+Polish	LFG	96.76
+Polish	PDB	97.25
+Romanian	Nonstandard	94.93
+Romanian	RRT	97.38
+Romanian	simonero	98.68
+Russian	GSD	94.46
+Russian	Taiga	93.99
+Russian	SynTagRus	97.46
+Serbian	SET	96.79
+Scottish Gaelic	ARCOSG	96.19
+Spanish	AnCora	99.20
+Spanish	GSD	98.20
+Swedish	LinES	96.23
+Swedish	Talbanken	97.20
+Slovenian	SSJ	97.48
+Slovak	SNK	93.97
+Tamil	TTB	81.47
+Turkish German	SAGT	90.42
+Turkish	Atis	98.52
+Turkish	BOUN	91.02
+Turkish	FrameNet	93.39
+Turkish	IMST	94.96
+Turkish	Penn	94.21
+Turkish	kenet	93.31
+Turkish	Tourism	99.02
+Urdu	UDTB	97.16
+Ukrainian	IU	96.18
+Uyghur	UDT	95.31
+Vietnamese	VTB	87.55
+Western Armenian	ArmTDP	96.61
+Welsh	CCG	95.01
+Wolof	wtb	94.85
 
 
 
