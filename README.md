@@ -136,10 +136,10 @@ In addition to the main Early Slavic treebanks, OldSlavicLemma was evaluated on 
 | Naija                   | NSC           |                 99.26 |
 | Norwegian               | Bokmaal       |                 97.91 |
 | Norwegian               | Nynorsk       |                 97.50 |
-| **Old Church Slavonic** | **PROIEL**    |             **96.30** |
-| **Old East Slavic**     | **Birchbark** |             **76.47** |
-| **Old East Slavic**     | **RNC**       |             **82.58** |
-| **Old East Slavic**     | **TOROT**     |             **94.47** |
+| Old Church Slavonic     | PROIEL        |                 96.30 |
+| Old East Slavic         | Birchbark     |                 76.47 |
+| Old East Slavic         | RNC           |                 82.58 |
+| Old East Slavic         | TOROT         |                 94.47 |
 | Persian                 | PerDT         |                 98.46 |
 | Persian                 | Seraji        |                 98.00 |
 | Portuguese              | Bosque        |                 97.81 |
