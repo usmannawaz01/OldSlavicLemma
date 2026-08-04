@@ -59,28 +59,28 @@ In addition to the main Early Slavic treebanks, OldSlavicLemma was evaluated on 
 Evaluated languages
 
 
-Afrikaans
-Ancient Greek
-Ancient Hebrew
-Arabic
-Armenian
-Basque
-Belarusian
-Bulgarian
-Catalan
-Chinese
-Classical Chinese
-Coptic
-Croatian
-Czech
-Danish
-Dutch
-English
-Estonian
-Finnish
-French
-Galician
-German
+-Afrikaans
+-Ancient Greek
+-Ancient Hebrew
+-Arabic
+-Armenian
+-Basque
+-Belarusian
+-Bulgarian
+-Catalan
+-Chinese
+-Classical Chinese
+-Coptic
+-Croatian
+-Czech
+-Danish
+-Dutch
+-English
+-Estonian
+-Finnish
+-French
+-Galician
+-German
 Gothic
 Greek
 Hebrew
