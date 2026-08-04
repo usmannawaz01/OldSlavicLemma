@@ -51,6 +51,14 @@ OldSlavicLemma is specialized for Early Slavic lemmatization, especially:
 
 The model was also evaluated on additional Universal Dependencies treebanks to test portability beyond the main Early Slavic setting.
 
+
+
+
+
+## Evaluated languages
+
+In addition to the main Early Slavic treebanks, OldSlavicLemma was evaluated on the following **64 languages** and **115 treebanks** from Universal Dependencies:
+
 ## Multilingual evaluation results
 
 | Language                | Treebank      | OldSlavicLemma RAW F1 |
@@ -171,78 +179,6 @@ The model was also evaluated on additional Universal Dependencies treebanks to t
 | Welsh                   | CCG           |                 95.01 |
 | Wolof                   | wtb           |                 94.85 |
 
-
-
-
-
-## Evaluated languages
-
-In addition to the main Early Slavic treebanks, OldSlavicLemma was evaluated on the following **64 languages** and **115 treebanks** from Universal Dependencies:
-
-- Afrikaans
-- Ancient Greek
-- Ancient Hebrew
-- Arabic
-- Armenian
-- Basque
-- Belarusian
-- Bulgarian
-- Catalan
-- Chinese
-- Classical Chinese
-- Coptic
-- Croatian
-- Czech
-- Danish
-- Dutch
-- English
-- Estonian
-- Finnish
-- French
-- Galician
-- German
-- Gothic
-- Greek
-- Hebrew
-- Hindi
-- Hungarian
-- Icelandic
-- Indonesian
-- Irish
-- Italian
-- Japanese
-- Korean
-- Latin
-- Latvian
-- Lithuanian
-- Maghrebi Arabic
-- Marathi
-- Naija
-- Norwegian
-- Old Church Slavonic
-- Old East Slavic
-- Persian
-- Polish
-- Pomak
-- Portuguese
-- Romanian
-- Russian
-- Scottish Gaelic
-- Serbian
-- Slovak
-- Slovenian
-- Spanish
-- Swedish
-- Tamil
-- Turkish
-- Turkish German
-- Ukrainian
-- Urdu
-- Uyghur
-- Vietnamese
-- Welsh
-- Western Armenian
-- Wolof
 
 
 ## Installation
